@@ -10,6 +10,7 @@ Firebase와 연동하여 실시간 예약 기능을 제공하며, 간편한 UI�
 ## 주요 기능
 
 ### 1. 로그인 / 회원가입
+- [로그인 레이아웃](userImages/userlogin.PNG) [회원가입 레이아웃](userImages/userregister.PNG)
 - 이메일, 비밀번호 기반 회원가입 및 로그인 기능
 - Firebase Authentication 연동
 - 로그인 성공 시 메인화면으로 이동
@@ -17,6 +18,7 @@ Firebase와 연동하여 실시간 예약 기능을 제공하며, 간편한 UI�
 ---
 
 ### 2. 노선 선택 화면
+- [레이아웃](userImages/userroutechoose.PNG)
 - Spinner를 통해 노선 선택
 - 선택한 노선에 따라 정류장 및 시간 선택 화면으로 이동
 - 노선에 따라 XML 화면이 따로 구성되어 있음
@@ -24,6 +26,7 @@ Firebase와 연동하여 실시간 예약 기능을 제공하며, 간편한 UI�
 ---
 
 ### 3. 정류장 및 시간 선택
+- [레이아웃](userImages/usertimeplace.PNG)
 - Spinner를 통해 시간 및 정류장 선택
 - 선택한 예약 정보를 Firebase에 저장
 - 예약 완료 후 Toast 메시지로 안내
@@ -31,6 +34,7 @@ Firebase와 연동하여 실시간 예약 기능을 제공하며, 간편한 UI�
 ---
 
 ### 4. 예약 내역 확인
+- [레이아웃](userImages/userselectbuslist.PNG)
 - 사용자가 예약한 내역을 리스트로 확인 가능
 - RecyclerView를 통해 예약 리스트 출력
 - 예약 항목 삭제 기능 제공 (Firebase에서 실시간 삭제)
@@ -40,6 +44,7 @@ Firebase와 연동하여 실시간 예약 기능을 제공하며, 간편한 UI�
 ### 5. 기타 기능
 - 로그아웃 기능
 - 간단한 디자인 기반의 정적 UI
+- fab 버튼 기능 [레이아웃](userImages/userfab.PNG)
 - 예약 시 중복 체크 없음 (※ 리팩토링 전 버전)
 
 ---
